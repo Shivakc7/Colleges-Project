@@ -1,0 +1,80 @@
+.register{
+    width: 100vw;
+    height: 100vh;
+    background-color: #f0f2f5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.register-wrapper{
+    width: 70%;
+    height: 70%;
+    display: flex;
+}
+
+.register-left, .register-right{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.register-logo{
+    font-size: 50px;
+    font-weight: 500;
+    color: #1775ee;
+    margin-bottom: 10px;
+}
+.register-desc{
+    font-size: 24px;
+}
+.register-box{
+    height: 400px;
+    padding: 20px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.register-input{
+    height: 50px;
+    border-radius: 10px;
+    font-size: 1.12rem;
+    border: 1px solid gray;
+    padding-left: 20px;
+}
+.register-input:focus{
+    outline: none;
+
+}
+
+.register-btn{
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    font-size: 1.12rem;
+    font-weight: 500;
+    color: #ffffff;
+    background-color: #1775ee;
+    cursor: pointer;
+}
+
+/* .register-forgot{
+    text-align: center  ;
+    color: #1775ee;
+} */
+.register-register{
+    width: 60%;
+    height: 50px;
+    /* margin-left: 20%; */
+    align-self: center;
+    border-radius: 10px;
+    border: none;
+    font-size: 1.12rem;
+    font-weight: 500;
+    margin-bottom: 10px;
+    color: #ffffff;
+    background-color: #31b50c;
+    cursor: pointer;
+}
